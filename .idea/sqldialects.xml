@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/user-parent/user-dao/src/main/resources/com/qf/dao/PersonDao.xml" dialect="GenericSQL" />
+  </component>
+</project>

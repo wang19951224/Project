@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="xiliuhou:war">
+    <output-path>$PROJECT_DIR$/xiliuhou/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>xiliuhou</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="XiLiuHou.war">
+      <element id="artifact" artifact-name="xiliuhou:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FengMi:war">
+    <output-path>$PROJECT_DIR$/FengMi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FengMi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FengMi.war">
+      <element id="artifact" artifact-name="FengMi:war exploded" />
+    </root>
+  </artifact>
+</component>

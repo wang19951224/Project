@@ -1,0 +1,13 @@
+<%@ page language="java" contentType="text/html;charset=gbk" pageEncoding="gbk"%>
+<html>
+
+<body>
+<h2>Hello World!</h2>
+
+<form action="login" method="get">
+    ’Àªß<input type="name" >
+    √‹¬Î<input type="text" name="age" >
+    <input type="submit" value="µ«¬º">
+</form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qfl-service" />
+        <module name="test1" />
+        <module name="user-service" />
+        <module name="redis" />
+        <module name="demo" />
+        <module name="gebao" />
+        <module name="redis-01" />
+        <module name="qfl-dao" />
+        <module name="xiliuhou" />
+        <module name="user-dao" />
+        <module name="test" />
+        <module name="bye" />
+        <module name="git-01" />
+        <module name="test123" />
+        <module name="qfl-web" />
+        <module name="ssmdao" />
+        <module name="user-web" />
+        <module name="FengMi" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="bye" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="FengMi" target="1.8" />
+      <module name="fengmiplus" target="1.5" />
+      <module name="ge-bao" target="1.5" />
+      <module name="gebao" target="1.7" />
+      <module name="git-01" target="1.5" />
+      <module name="qfl-dao" target="1.8" />
+      <module name="qfl-service" target="6" />
+      <module name="qfl-web" target="1.7" />
+      <module name="redis" target="1.8" />
+      <module name="redis-01" target="1.8" />
+      <module name="ssmdao" target="1.5" />
+      <module name="test" target="1.7" />
+      <module name="test1" target="1.8" />
+      <module name="test123" target="1.8" />
+      <module name="user-dao" target="1.8" />
+      <module name="user-parent" target="1.5" />
+      <module name="user-service" target="1.5" />
+      <module name="user-web" target="1.7" />
+      <module name="xiliuhou" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="redis" options="-parameters" />
+      <module name="redis-01" options="-parameters" />
+      <module name="test" options="" />
+      <module name="test1" options="-parameters" />
+      <module name="test123" options="-parameters" />
+    </option>
+  </component>
+</project>

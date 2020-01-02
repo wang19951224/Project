@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="qfl-web:war">
+    <output-path>$PROJECT_DIR$/fengmiplus/qfl-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>qfl-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="qfl-web.war">
+      <element id="artifact" artifact-name="qfl-web:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gebao:war">
+    <output-path>$PROJECT_DIR$/gebao/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gebao</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gebao.war">
+      <element id="artifact" artifact-name="gebao:war exploded" />
+    </root>
+  </artifact>
+</component>

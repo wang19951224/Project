@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <context:component-scan base-package="com.qf" >
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller" />
+    </context:component-scan>
+
+    <bean name="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+    <property name="jdbcUrl" value="jdbc:mysql:///java1909?characterEncoding=UTF-8"/>
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="password" value="199512"/>
+        <property name="user" value="root"/>
+    </bean>
+
+    <bean name="sqlSessionFaction" class="org.mybatis.spring.SqlSessionFactoryBean">
+    <property name="dataSource" ref="dataSource"/>
+        <property name="typeAliasesPackage" value="com.qf.entity"/>
+    </bean>
+
+    <bean class="org.apache.ibatis.session.Configuration">
+        <property name="autoMappingBehavior" value="FULL"/>
+    </bean>
+
+    <bean id="mapperScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+    <property name="basePackage" value="com.qf"/>
+</bean>
+
+
+</beans>

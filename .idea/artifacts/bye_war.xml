@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bye:war">
+    <output-path>$PROJECT_DIR$/bye/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bye</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bye.war">
+      <element id="artifact" artifact-name="bye:war exploded" />
+    </root>
+  </artifact>
+</component>

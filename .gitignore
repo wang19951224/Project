@@ -1,0 +1,8 @@
+# Project exclude paths
+/bye/target/
+/gebao/target/
+/test/target/
+/user-parent/user-dao/target/
+/user-parent/user-service/target/
+/user-parent/user-web/target/
+/xiliuhou/target/
